@@ -10,7 +10,57 @@
     .user {
       font-weight: bold;
       font-size: 2em;
-      margin-left: 34%;
+      text-align: center;
+      width: 100%;
+
+    }
+
+    @media screen and (max-width: 400px) {
+      body {
+        width: 100%;
+
+      }
+
+      .full {
+        width: 100%;
+        padding: 0.1em;
+      }
+
+      .main1 {
+        width: 112%;
+      }
+
+
+
+      .box {
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: repeat(1, minmax(100px, 1fr));
+        width: 0%;
+      }
+
+      .navbar li {
+        display: block;
+        margin: 0 20px;
+      }
+
+
+    }
+
+    @media screen and (max-width: 700px) {
+      .box {
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: repeat(2, minmax(200px, 2fr));
+        width: 100%;
+      }
+
+    }
+
+    @media screen and (min-width: 900px) {
+      body {
+        width: 100%;
+      }
     }
   </style>
 </head>

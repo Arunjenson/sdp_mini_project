@@ -6,6 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home | Page</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    @media screen and (max-width: 400px) {
+      body {
+        width: 100%;
+      }
+
+      .navbar {
+        display: block;
+        margin: 0 20px;
+      }
+
+      .motive {
+        display: block;
+      }
+
+      .box1 {
+        padding: 1em;
+        width: 100%;
+      }
+
+      img {
+        padding: 1em;
+      }
+
+      .header1 {
+        margin-top: -239px;
+      }
+    }
+
+    @media screen and (max-width: 700px) {}
+
+    @media screen and (min-width: 900px) {}
+  </style>
 
 </head>
 
@@ -17,9 +50,9 @@
     <h1 class="header1">THE GREAT LIBRARY OF <br> ALEXANDRIA</h1>
   </div>
   <div class="nav">
-    <nav class="navbar">
-      <ul>
-        <!-- <li><a href=""> Home</a></li> -->
+    <nav>
+      <ul class="navbar">
+
 
 
         <% if (user) { %>
