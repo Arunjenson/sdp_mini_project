@@ -5,7 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #e7feff;
+    background-color: #E7E8D1;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -97,6 +97,7 @@ li:visited {
     margin-top: 20px;
     font-size: 23px;
     line-height: 1.5em;
+    text-align: justify;
 }
 
 .img1 {
@@ -108,11 +109,9 @@ li:visited {
 }
 
 .box2 {
-    padding-left: 30px;
-    padding-top: 20px;
+    padding: 3em;
 }
 
 .box3 {
-    padding-left: 30px;
-    padding-top: 20px;
+    padding: 1.5em;
 }

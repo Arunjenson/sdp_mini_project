@@ -28,6 +28,7 @@ app.get('*', checkUser);
 app.get('/', (req, res) => res.render('home'));
 app.get('/dashboard', requireAuth, (req, res) => res.render('dashboard'));
 app.get('/profile', requireAuth, (req, res) => res.render('profile'));
+app.get('/help', requireAuth, (req, res) => res.render('help'))
 app.get('/CSE', requireAuth, (req, res) => res.render('CSE'));
 app.get('/ECE', requireAuth, (req, res) => res.render('ECE'));
 app.get('/civil', requireAuth, (req, res) => res.render('civil'));
